@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<script type="text/javascript">
+	var userID = sessionStorage.getItem("id");
+</script>
+<style>
+li{
+   list-style:none;
+   }
+</style>
+</head>
+<body>
+
+<div class="well">  <script>document.write(userID);</script>'S FEED</div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1" id="following">
+  내가 팔로잉한 사람
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">내가 팔로잉한 사람</h4>
+      </div>
+      <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2" id="follower">
+  나를 팔로우한 사람
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">나를 팔로우한 사람</h4>
+      </div>
+      <div class="modal-body" id="followerModal">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="content">
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script>
+ $(function(){
+  	var newDivHtml = "<div class=\"panel panel-default\"><div class=\"panel-heading\">제목입니다</div><div class=\"panel-body\">내용입니다</div></div>";
+
+	var div = parent.document.createElement("div");
+	div.id = "aaa";
+	div.innerHTML = newDivHtml;
+
+	parent.document.getElementById("content").appendChild(div);
+
+  });
+
+  $('#following').on('click', function () {
+  	var newDivHtml = "<li>추가할 내용 <button>예시</button> </li>";
+
+	var div = parent.document.createElement("div");
+	div.id = "aaa";
+	div.innerHTML = newDivHtml;
+
+	parent.document.getElementById("followerModal").appendChild(div);
+
+  });
+
+  $('#follower').on('click', function () {
+
+  });
+</script>
+</body>
+</html>

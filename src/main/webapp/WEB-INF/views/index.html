@@ -1,0 +1,33 @@
+<!Doctype html>
+<html lang="kor">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<br/><br/><br/><br/>
+	<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" id="startUser">Go!</button>
+      </span>
+      <input type="text" class="form-control" placeholder="Put Your ID" id="userId">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script>
+  $('#startUser').on('click', function () {
+  	var userID = $("#userId").val();
+  	window.sessionStorage.setItem("id", userID);
+    console.log(sessionStorage.getItem("id"));
+    location.replace("main.html");
+  })
+</script>
+</body>
+
+</html>

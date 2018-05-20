@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="follow">
+    <insert id="follow" parameterType="hack.naver.feed.dto.FollowDto">
+        INSERT
+    	INTO	follow (id, following)
+    	VALUES	("${id}", "${following}")
+    </insert>
+    
+    <delete id="unfollow" parameterType="hack.naver.feed.dto.FollowDto">
+        DELETE
+    	FROM	follow
+    	WHERE	id = #{id} AND following = #{following}
+    </delete>
+    
+    <select id="following" parameterType="string" resultType="string">
+    	SELECT	following
+    	FROM	follow
+    	WHERE	id = #{id}
+    </select>
+    
+    <select id="follower" parameterType="string" resultType="string">
+    	SELECT	id
+    	FROM	follow
+    	WHERE	following = #{id}
+    </select>
+</mapper>

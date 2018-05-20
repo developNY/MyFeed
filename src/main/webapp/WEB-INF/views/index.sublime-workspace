@@ -1,0 +1,270 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"log",
+				"log"
+			],
+			[
+				"lon",
+				"longitude"
+			],
+			[
+				"arr_",
+				"arr_qstans"
+			],
+			[
+				"docu",
+				"document〔variable〕"
+			],
+			[
+				"c",
+				"character"
+			],
+			[
+				"sc",
+				"src\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 394.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTALL",
+				"Install Package Control"
+			]
+		],
+		"width": 694.0
+	},
+	"console":
+	{
+		"height": 624.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"https://github.com/facelessuser/BracketHighlighter",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/user/Desktop/step2_Gyeongbok.html",
+		"/C/Users/user/Desktop/Client_Gungduk/mypage.html",
+		"/C/Users/user/Desktop/Client_Gungduk/signin.html",
+		"/C/Users/user/Desktop/map.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/result_findpassword.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/step2 - 복사본.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/step2.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/su111.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/changeInfo.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/cici.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/findID.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/login.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/findpassword.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/main.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/mypage.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/questlist.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/questlist_cd.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/questlist_ck.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/questlist_ds.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/questlist_kb.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/result_findID.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/signup.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/step1.html",
+		"/C/Users/user/Desktop/Client_Gungduk/step1.html",
+		"/C/Users/user/Documents/client/bootstrap-4.0.0-beta.3-dist/checked.png",
+		"/C/Users/user/Desktop/original_step2_Gyeongbok.html",
+		"/C/Users/user/Desktop/socket.html",
+		"/C/Users/user/Desktop/xxx.html",
+		"/C/Users/user/Documents/카카오톡 받은 파일/step2_Gyeongbok/step2_Gyeongbok.html",
+		"/C/Users/user/Desktop/login.html",
+		"/C/Users/user/Documents/카카오톡 받은 파일/step2_Gyeongbok (1)/step2_Gyeongbok.html",
+		"/C/Users/user/Desktop/step2_Gyeongbok/step2_Gyeongbok.html",
+		"/C/Users/user/Desktop/update.html",
+		"/C/Users/user/Desktop/changeInfo2.html",
+		"/C/Users/user/Desktop/mypage2.html",
+		"/C/Users/user/Desktop/main2.html",
+		"/C/Users/user/Desktop/findId/findId.html",
+		"/C/Users/user/Desktop/InHousemine/src/main/java/org/nexters/inhousekitchen/controller/SearchController.java",
+		"/C/Users/user/Desktop/findId.html",
+		"/C/Users/user/Desktop/InHousemine/src/main/java/org/nexters/inhousekitchen/controller/BookingController.java",
+		"/C/Users/user/Desktop/InHousemine/src/main/java/org/nexters/inhousekitchen/service/BookingServiceimpl.java",
+		"/C/Users/user/Desktop/InHousemine/src/main/java/org/nexters/inhousekitchen/service/BookingService.java",
+		"/C/Users/user/Desktop/InHousemine/src/main/java/org/nexters/inhousekitchen/service/SearchServiceimpl.java",
+		"/C/Users/user/Desktop/InHousemine/src/main/java/org/nexters/inhousekitchen/service/SearchService.java",
+		"/C/Users/user/Desktop/InHousemine/src/main/java/org/nexters/inhousekitchen/dao/BookingDAOimpl.java",
+		"/C/Users/user/Desktop/InHousemine/src/main/java/org/nexters/inhousekitchen/dao/BookingDAO.java",
+		"/C/Users/user/Desktop/InHousemine/src/main/java/org/nexters/inhousekitchen/dao/SearchDAOimpl.java",
+		"/C/Users/user/Desktop/InHousemine/src/main/java/org/nexters/inhousekitchen/dao/SearchDAO.java",
+		"/C/Users/user/Desktop/InHousemine/src/main/resources/mybatis/dining.xml",
+		"/C/Users/user/Desktop/InHousemine/src/main/resources/mybatis/booking.xml",
+		"/C/Users/user/Downloads/bootstrap-4.0.0-beta.2-dist (2)/bootstrap-4.0.0-beta.2-dist/mainpage.html",
+		"/C/Users/user/Desktop/자바스크립트/hello.html",
+		"/C/Users/user/Desktop/nnnnnnnnnnn.html",
+		"/C/Users/user/Desktop/naverapi.js",
+		"/C/Users/user/Desktop/MatWiki/src/main/resources/mapper/main/main.xml",
+		"/C/Users/user/Desktop/MatWiki/src/main/java/com/gwangple/matwiki/main/controller/MainController.java",
+		"/C/Users/user/Desktop/MatWiki/src/main/java/com/gwangple/matwiki/main/dao/MainDao.java",
+		"/C/Users/user/Desktop/MatWiki/src/main/java/com/gwangple/matwiki/main/service/MainService.java",
+		"/C/Users/user/Desktop/test1.html",
+		"/C/Users/user/Desktop/frontend-nanodegree-resume/js/helper.js",
+		"/C/Users/user/Desktop/frontend-nanodegree-resume/exercise/ex1_1",
+		"/C/Users/user/Desktop/frontend-nanodegree-resume/js/resumeBuilder.js",
+		"/C/Users/user/Desktop/공부/개발공부/test.html"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 76.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

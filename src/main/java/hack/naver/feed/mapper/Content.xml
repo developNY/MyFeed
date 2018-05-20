@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="content">
+	<insert id="insertContent" parameterType="hashmap">
+    	INSERT
+    	INTO	post (u_id, content)
+    	VALUES	("${u_id}", "${content}")
+    </insert>
+    
+    <update id="modifyContent" parameterType="hack.naver.feed.dto.ContentDto">
+    	UPDATE	post
+     	SET		content = #{content}
+     	WHERE	u_id = #{u_id} AND p_id = #{p_id}
+    </update>
+    
+    <delete id="deleteContent" parameterType="hashmap">
+    	DELETE
+    	FROM	post
+    	WHERE	u_id = #{u_id} AND p_id = #{p_id}
+    </delete>
+    
+    <select id="showMyContent" parameterType="long" resultType="hack.naver.feed.dto.ContentDto">
+    	SELECT	u_id, content
+    	FROM	post
+    	WHERE	u_id = #{u_id}
+    </select>
+</mapper>
